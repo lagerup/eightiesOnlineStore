@@ -1,0 +1,21 @@
+    <footer class="foot">
+<a href="/cart/clear" class="button">Clear Cart</a>
+
+
+<a href="/categories" class="button">Categories</a>
+
+
+
+<% if user_signed_in? %>
+<% if current_user.admin? %>
+<a href="/orders" class="button">View Orders</a>
+
+<% end %>
+<%= link_to 'Update Profile', edit_user_registration_path %>
+<%= link_to 'View Profile', user_profiles_path %>
+<% end %>
+
+  <p>123 Elvis Presley Avenue, Memphis, Tennessee, USA</p>
+  <p>Contact information: <a href="mailto:info@80sonlinestore.com">info@80sonlinestore.com</a></p>
+
+</footer>

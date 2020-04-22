@@ -1,0 +1,210 @@
+.headSec {
+    
+    background: url("/assets/Site/neon_drive.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height:10px;
+    background-color: #b3e0ff;
+    width: 100%;
+    margin-bottom:10px;
+    overflow: auto;
+font-family: inherit;
+text-align: left;
+    
+}
+
+body {background-color: Azure;
+    font-family: monospace;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+*/
+.headSec h1 {
+    color: Fuchsia ;
+    font-size: 80px;
+    padding: 15px;
+    
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;    
+    
+}
+
+li {float:left;}
+
+li a {
+    display: block;
+    color: steelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 16px;
+    
+}
+
+.mainCont { 
+    
+    margin: auto;
+    width:80%;
+    border: 3px solid #b3e0ff;
+    padding: 10px;
+    text-align: center;
+}
+
+.welcomeIm {width: 30%;}
+
+
+.foot {
+    min-height: 80px;
+    background-color: #d8ecf3 ;
+    width: 100%;
+    margin-top: 10px;
+    overflow: auto;
+    
+    
+}
+
+.container {
+      background: url("/assets/Site/what's this.jpg");
+      background-repeat:no-repeat;
+      background-position:right bottom;
+      width: 100%;
+      min-height: 700px;
+}
+
+
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+
+#itemsContainer h1 {
+   display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: underline overline dotted Fuchsia;
+    font-family: inherit;
+    font-size: 26px
+}
+
+
+.itemhols {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 22%;
+    padding:10px;
+    min-height: 300px;
+    font-family: monospace;
+   
+}
+
+
+.itemhols h1 {
+   display: block;
+    color: steelblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+    
+}
+
+
+.itemhols p {
+   display: block;
+    color: slategray;
+    text-align: justify;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px
+    
+}
+
+
+
+.itemholsIm {
+    width: 30%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+    
+}
+
+.button:hover { 
+	background-color: Coral  ;
+	color: black;
+	}
+	
+.button {
+    background-color: steelblue;
+    border: none;
+    color: white;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-family: monospace;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+#customers {
+    font-family: monospace;;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: PaleGreen;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: MediumSeaGreen   ;
+    color: black;
+}
+
+
+
+ 
+
+
